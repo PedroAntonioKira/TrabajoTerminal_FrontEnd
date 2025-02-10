@@ -164,10 +164,10 @@ const Sign_Up = ({ onSwitch }) => {
           }}
           className="button-prueba"
         >
-          Volver a Formulario 1
+          Validar Token
         </button>
         <button type="submit" className="btn btn-primary">
-          Registar
+          Registar usuario
         </button>
       </form>
     </div>

@@ -36,7 +36,7 @@ const ValidationsAsyn = ({ data, form }) => {
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
   // Expresión regular para validar que la contraseña tenga 8 caracteres, una mayúscula, una minúscula, un número y un simbolo especial al menos.
-  const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[$&%¡¿?!])[A-Za-z\d$&%¡¿?!]{8}$/;
+  const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[$&%¡¿?!_*])[A-Za-z\d$&%¡¿?!_*]{8}$/;
 
 
   // Validación de formato de email01
