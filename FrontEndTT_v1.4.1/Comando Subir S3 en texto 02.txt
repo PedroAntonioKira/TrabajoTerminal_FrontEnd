@@ -1,0 +1,12 @@
+aws s3 sync dist/ s3://mi-sitio-react-s301 --delete --content-type "text/html" --exclude "*" --include "*.html"
+aws s3 sync dist/ s3://mi-sitio-react-s301 --delete --content-type "application/javascript" --exclude "*" --include "*.js"
+aws s3 sync dist/ s3://mi-sitio-react-s301 --delete --content-type "text/css" --exclude "*" --include "*.css"
+aws s3 sync dist/ s3://mi-sitio-react-s301 --delete --exclude "*" --include "*"  # Finalmente, lo restante
+
+
+
+
+aws s3 sync dist/ s3://mi-sitio-react-s301 --delete --content-type "text/html" --exclude "*" --include "*.html"
+aws s3 sync dist/ s3://mi-sitio-react-s301 --delete --content-type "application/javascript" --exclude "*" --include "*.js"
+aws s3 sync dist/ s3://mi-sitio-react-s301 --delete --content-type "text/css" --exclude "*" --include "*.css"
+aws s3 sync dist/ s3://mi-sitio-react-s301 --delete --exclude "*" --include "*"  # Finalmente, lo restante

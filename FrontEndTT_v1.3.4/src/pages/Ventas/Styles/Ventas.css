@@ -1,0 +1,62 @@
+
+.Contenedor{
+    width: 100vw;
+    height: auto;
+    max-height: 200vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: end;
+}
+
+.Contenedor.menu-visible{
+    justify-content: end;
+}
+
+.Contenedor.menu-visible{
+    justify-content: end;
+    
+}
+
+
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: auto;
+  }
+
+  /* Ajustar contenido cuando el menú está visible */
+  .content.menu-visible { 
+    width: 80%;
+    height: 100%;
+    /*outline: solid rgb(89, 0, 255) 3px;*/
+    transition: width 0.3s ease;
+  }
+  
+  /* Ajustar contenido cuando el menú está oculto */
+  .content.menu-hidden {
+    margin-left: 0;
+    width: 95%;
+    transition: margin-left 0.3s ease;
+    outline: solid red 3px;
+    transition: width 0.3s ease;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  /* Responsivo */
+  @media (max-width: 768px) {
+
+    /* Ajustar contenido cuando el menú está visible */
+  .content.menu-visible { 
+    width: 80%;
+  }
+  
+  /* Ajustar contenido cuando el menú está oculto */
+  .content.menu-hidden {
+    width: 80%;
+  }
+  }
+  

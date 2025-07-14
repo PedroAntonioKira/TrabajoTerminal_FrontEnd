@@ -1,0 +1,84 @@
+.modal-backdrop.show {
+    background-color: rgba(0, 0, 0, 0.932); /* Oscurece solo el fondo */
+    backdrop-filter: blur(2px); /* Desenfoque opcional */
+    z-index: 1040;
+  }
+  
+  .modal.fade.show {
+    z-index: 1050; /* Asegura que el modal esté por encima del fondo */
+  }
+  
+  .modal-content {
+    background-color: white !important;
+    z-index: 1051;
+    position: relative;
+  }
+  
+
+  .modal-overlay{
+    /* background-color: transparent !important; */
+    background-color: #000 !important;
+  }
+
+  div.modal-backdrop{
+    --bs-backdrop-bg:#850000af;
+    background-color: #000000e7 !important;
+  }
+  
+.imagenModalCategoria{
+  max-height: 200px;
+  width: 100%;
+  object-fit: scale-down;
+  outline: 1px #000 solid;
+}
+
+
+.NombreEtiquetaCategoria{
+  width: 100%;
+  display: block;
+  /* background-color: aqua; */
+  text-align: center;
+}
+
+.contenedorEdicionCategorias{
+  flex-direction: column;
+}
+
+.contenedorEdicionCategorias > div.align-items-center{
+  /* background-color: blueviolet; */
+  width: 100%;
+} 
+
+textarea{
+  resize: none;
+  font-size: 5px;
+  height: 100px;
+}
+
+.div.modal.d-block{
+  background-color: aqua !important;
+}
+
+.modal-dialog .modal-dialog-centered{
+  background-color: aqua !important;
+}
+
+.custom-file-upload {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+.custom-file-upload:hover {
+  background: #45a049;
+}
+
+
+
+.cambiarImagenCategoria{
+  display: flex;
+  justify-content: center;
+}
+  

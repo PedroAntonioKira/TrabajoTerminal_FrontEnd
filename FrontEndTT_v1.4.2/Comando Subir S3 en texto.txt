@@ -1,0 +1,11 @@
+aws s3 sync dist/ s3://mi-sitio-react-s301/ --delete
+
+
+
+
+aws s3 sync dist/ s3://mi-sitio-react-s301/ --delete
+
+
+
+
+aws s3 sync dist/ s3://mi-sitio-react-s301/ --delete

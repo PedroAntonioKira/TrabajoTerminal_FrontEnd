@@ -1,0 +1,30 @@
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.3s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    to { 
+      opacity: 1;
+    }
+  }
+  
+  /* Estilos opcionales para mejorar la UI */
+  .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .col-7{
+    color: rgb(92, 8, 170);
+    text-align: justify;
+  }

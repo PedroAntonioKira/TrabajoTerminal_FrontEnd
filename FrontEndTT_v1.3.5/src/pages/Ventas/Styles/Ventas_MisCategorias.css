@@ -1,0 +1,71 @@
+/* Imagen ajustada */
+.object-fit-cover {
+    object-fit: cover;
+    height: 160px; /* más compacta pero sin deformarse */
+  }
+  
+  /* Spinner con transición suave */
+  .spinner-wrapper {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  /* Tarjeta con transición de entrada */
+  .animacion-aparecer {
+    animation: fadeSlideIn 0.4s ease-in-out;
+  }
+  
+  /* Animación de entrada suave */
+  @keyframes fadeSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Tarjeta compacta */
+  .categoria-card {
+    min-height: 300px;
+    font-size: 0.9rem; /* Letra más compacta pero legible */
+  }
+  
+  /* Reducción de espaciado en el cuerpo */
+  .categoria-card .card-body {
+    padding: 0.75rem;
+  }
+
+  .container{
+    margin-bottom: 20px;
+  }
+
+  .tituloListadoCategorias{
+    color: red;
+    margin-bottom: 15px !important;
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 20px;
+  }
+
+  .content{
+    justify-content: start !important;
+  }
+  
+  div.container.mt-5{
+    margin: 0 !important;
+  }
+
+  div.content.menu-visible{
+    padding: 0;
+  }
+
+  .AjusteListadoCategorias{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

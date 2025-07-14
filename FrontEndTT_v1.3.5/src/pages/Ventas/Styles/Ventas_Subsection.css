@@ -1,0 +1,37 @@
+.ContenedorSubsection{
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    height: 80%;
+    width: 80%;
+    padding: 50px;
+    border-radius: 50px;
+
+    
+    font-family: "Merriweather", Arial, Helvetica;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+
+    .ContenedorSubsection{
+        background-color: rgb(255, 255, 255);
+        margin: 10px auto;
+        height: 80%;
+        width: 90%;
+        padding: 20px;
+        border-radius: 50px;
+    
+        
+        font-family: "Merriweather", Arial, Helvetica;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+    }
+  }
+  

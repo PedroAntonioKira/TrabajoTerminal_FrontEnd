@@ -1,0 +1,70 @@
+.botones_login{
+    /*background-color: blueviolet;*/
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    min-width: 100%;
+    max-width: 100%;
+    width: auto;
+}
+
+.botones_login button{
+    min-width: 150px;
+    max-width: 150px;
+    height: 50px;
+}
+
+.botones_login button.btn-secondary{
+    font-size: 12px;
+}
+
+.contenedorRegistro{
+    width: 100%;
+    max-width: 800px;
+    min-width: 1000px;
+ }
+
+.contenedorRegistro>div{
+    /*background-color: aqua;*/
+    width: 90%;
+}
+
+@media screen and (max-width: 1200px) {
+  /* Aquí van los estilos que se aplicarán a todos los dispositivos
+     cuyo ancho sea 767px o menos, sin importar la orientación.
+     Esto cubre la mayoría de los teléfonos en ambas orientaciones,
+     así como tablets pequeñas en modo vertical. */
+
+     .contenedorRegistro{
+        width: 100%;
+        max-width: 800px;
+        min-width: 300px;
+     }
+
+     .botones_login{
+        /*background-color: blueviolet*/
+        display: flex;
+        justify-content: space-around;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        min-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .botones_login button{
+        min-width: 100%;
+        max-width: auto;
+        height: 40px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .botones_login button.btn-secondary{
+        font-size: 18px;
+    }
+
+
+
+}
